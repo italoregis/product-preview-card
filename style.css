@@ -12,20 +12,12 @@ font-family: 'Montserrat', sans-serif; */
 div.attribution { font-size: 11px; text-align: center; }
 div.attribution a { color: hsl(228, 45%, 44%); }
 
-picture > img{
-    width: 50vh;
-} 
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
 
 main{
     display: flex;
-}
-
-div{
-    background-color: red;
-    padding-left: 30px;
-}
-p{
-    font-family: 'Montserrat';
-    font-weight: 500px;
-}
-
+}   

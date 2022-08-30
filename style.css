@@ -18,6 +18,24 @@ div.attribution a { color: hsl(228, 45%, 44%); }
     max-width: 1440px;
 }
 
-main{
+body{
+    width: 100%;
+    height: 100vh;
     display: flex;
-}   
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    
+}
+
+.left{
+    width: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+}        

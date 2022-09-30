@@ -26,7 +26,6 @@ div.attribution a { color: hsl(228, 45%, 44%); }
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: var(--Cream);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,9 +33,8 @@ body {
 }
 
 .card {
-    background-color: red;
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 1rem;
+    /* background-color: red; */
     border-radius: 10px;
     overflow: hidden;
     max-width: 600px;
@@ -46,6 +44,12 @@ body {
     min-height: 14rem;
     background-position: center;
     background-size: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 .text :nth-child(1) {
@@ -61,4 +65,17 @@ body {
 .text :nth-child(3) {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.prices > p:nth-child(1){
+    color: var(--darkCyan);
+    font-family: 'Fraunces', serif;
+    font-size: 1.5em;
+    letter-spacing: normal;
 }

@@ -6,16 +6,21 @@
 font-family: 'Montserrat', sans-serif; */
 
 :root{
-     
+    --darkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --veryDarkBlue: hsl(212, 21%, 14%);
+    --darkGrayishBlue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
 }
 
-div.attribution { font-size: 11px; text-align: center; }
+div.attribution { font-size: 11px; text-align: center;}
 div.attribution a { color: hsl(228, 45%, 44%); }
 
 *{
     margin: 0;
     padding: 0;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+
 }
 
 body{
@@ -27,7 +32,18 @@ body{
 }
 
 main{
-    
+    width: 100%;
+    background-color: var(--Cream);
+}
+
+.card {
+    min-width: 600px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
 }
 
 .left{
@@ -35,7 +51,7 @@ main{
     background-image: url(images/image-product-desktop.jpg);
     background-position: center;
     background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
-main{
-}        

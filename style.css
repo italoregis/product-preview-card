@@ -47,12 +47,13 @@ body {
 }
 
 .text {
+    margin: 22px;
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
 
-.text :nth-child(1) {
+.text > :nth-child(1) {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5rem;
     font-size: 0.9rem;
@@ -64,10 +65,11 @@ body {
     font-family: 'Fraunces', serif;
 }
 
-.text :nth-child(3) {
+.text p:nth-child(3) {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     color: var(--darkGrayishBlue);
+    line-height: 1.5;
 }
 
 .prices {
@@ -76,11 +78,15 @@ body {
     gap: 22px;
 }
 
-.prices > p:nth-child(1){
+.prices p:nth-child(1){
     color: var(--darkCyan);
     font-family: 'Fraunces', serif;
     font-size: 1.5em;
     letter-spacing: normal;
+}
+
+.prices p:nth-child(2){
+    color: var(--darkGrayishBlue);
 }
 
 button {

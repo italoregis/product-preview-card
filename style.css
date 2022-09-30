@@ -102,6 +102,10 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    background-color: hsl(158, 36%, 22%);
+}
+
 @media (min-width: 600px) {
     body {
     }
